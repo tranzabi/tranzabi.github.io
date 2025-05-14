@@ -1,0 +1,166 @@
+/*
+Theme Name:     Weng Lab Theme
+Theme URI:      http://portfoliotheme.org/agile
+Description:    Child theme for Weng Lab by Engrafico
+Author:         Engrafico
+Author URI:     http://engrafico.com
+Template:       agile
+Version:        0.1.0
+*/
+
+@import url("../agile/style.css");
+
+#header.sticky #site-logo {
+    top: 5px;
+    }
+
+#primary-menu > ul.menu > li > a {
+font-size: 12px;
+font-style: normal;
+padding: 0 12px 0;
+line-height: 15px;
+border-left:1px solid #929292;
+margin-top:5px;
+margin-bottom:10px;
+}
+#primary-menu > ul.menu > li:first-child a{
+border:none;
+}
+
+
+
+#header.sticky #primary-menu > ul.menu > li > a {
+line-height: 50px;
+font-size: 12px;
+}
+
+#slider-area {
+background: #fff;
+}
+#header{
+border-top:3px solid #0000ff
+}
+
+h1,h2,h3,h4,h5{
+text-transform:none;
+}
+h1 {
+font-size: 24px;
+line-height: 28px
+}
+h2{
+font-size: 20px;
+line-height: 25px
+}
+h3{
+font-size: 18px;
+line-height: 24px
+}
+h4{
+font-size: 16px;
+line-height: 20px
+}
+h5 {
+font-size: 14px;
+line-height: 16px;
+}
+p,ul.post-list .entry-summary{
+line-height:15px;
+font-size:12px;
+}
+#sitemap-template h2, #archives-template h2, .archive h2{font-size:20px;line-height:25px;}
+h3{
+/* color:#9bba58; */
+color: #0000ff;
+}
+
+#homepage .sixcol{
+border-right:1px solid #515151;
+padding-right:4%;
+}
+
+ul.post-list li .entry-title{
+font-size:13px;
+line-height:16px;
+}
+
+#title-area{
+padding: 20px 0px 8px;
+}
+
+.sidebar li > a{
+font-size:12px;
+line-height:11px;
+}
+
+.wp-caption .wp-caption-text {
+color: #000;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+text-align: center;
+}
+
+.wp-caption .wp-caption-text-alignleft {
+color: #000;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+text-align: left;
+padding-top: 10px;
+}
+
+.wp-caption{
+padding:10px;
+background:#e2e2e2;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+}
+
+cite, em, i {
+font: italic 12px/18px "Open Sans", "Arvo", Georgia, Times, serif;
+}
+
+.wp-caption-text{
+padding-top:10px;
+}
+
+#footer-bottom-text img{
+display:inline; 
+height: auto;
+margin-bottom:-5px;
+}
+
+#post-28 img{
+margin-bottom:5px;
+border:1px solid #929292;
+}
+
+#right_corner_img{
+float:right;
+margin-top:10px;
+}
+
+#right_corner_img img{
+margin-top:30px;
+}
+
+#primary-menu > ul.menu > li > ul.sub-menu {
+top: 28px;
+border-top: 3px solid #0000ff;
+
+}
+
+#mobile-menu-toggle{
+top:45px;
+}
+
+.layout-2c #content{
+max-width:870px;
+}
+
+
+.inner{
+max-width:1000px;
+}
